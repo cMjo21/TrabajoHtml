@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+     <link  rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/tablet.css"media="(min-width: 930px)">
+
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-dark badge-dark ">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <img class="logo" src="/assets/logotaller.png" >
+            
+              <div  class="collapse navbar-collapse" id="navbarScroll">
+                <ul  class="menuconf" class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+                    <li  class="nav-item active">
+                      <div class="box1" ><a class ="inicio"class="nav-link" href="#inicio">INICIO <span class="sr-only">(current)</span></a></div>
+                    </li>
+                    <li class="nav-item">
+                     <div class="box2"> <a class ="login" class="nav-link" href="#login">LOGIN</div></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <div class="box3"><a class = "paginas" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        PAGINAS
+                      </a>
+                      <div class="despliegue-container">
+                      <ul  class="dropdown-menu">
+                        <li class="box5"><a class="dropdown-item" href="#sobrenosotros">Sobre nosotros </a></li>
+                        <li class="box6"><a class="dropdown-item" href="#marcas">Marcas</a></li>
+                        <li class="box7"><a class="dropdown-item" href="#sevicios">Servicios</a></li>
+                        <li class="box8"><a class="dropdown-item" href="#agenda">Agende su servicio</a></li>
+                    <li class="box10"><a class="dropdown-item" href="#comentarios">Comentarios</a></li>
+                      </ul>
+                                 
+                    </li>
+                    </ul>        
+                    </div>                     
+                 </nav>
+             
+          
+
+    <section class="slider-inicial-container" id="inicio">
+
+
+      <div class="row justify-content-center">
+        <div class="col-sm-8">
+
+          <div class="prueba"><div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner align-content-cente">
+              <div class="carousel-item active ">
+                <img src="/assets/audi11.jpg" class="d-block w-100  " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/audi13.jpg" class="d-block w-100  " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/Audi_AbuDhabi_01.jpg" class="d-block w-100  " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/bmw3.jpg" class="d-block  w-100  " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/mercedes9.jpg" class="d-block  w-100  " alt="...">
+              </div> 
+
+            </div>
+           <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </button>
+          </div></div>
+
+          
+
+          </div>
+
+
+
+
+        </div>
+    </div>
+
+       
+          
+    </section>
+
+    <section class="login-container" id="login">
+        <div class=" Login-word">
+         <h3 >LOGIN</h3>
+        </div>
+
+        <div class="backgroundLogin">
+  
+        </div>
+ 
+
+        <form class="form-Login"> 
+
+          <span class="logologin"> </span>
+         
+          <div class="form-group">
+            <label id="title1" for="exampleDropdownFormEmail1">Email address</label>
+            <input id="box1"  type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+          </div>
+  
+          <div class="form-group">
+            <label id="title1" for="exampleDropdownFormPassword1">Password</label>
+            <input id="box1"  type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+          </div>
+  
+  
+          <div class="form-group">
+            <div class="form-check">
+              <input class="boxcheck" type="checkbox" class="form-check-input" id="dropdownCheck">
+              <label   class="form-check-label" for="dropdownCheck">
+                Remember me
+              </label>
+            </div>
+          </div>
+         
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#staticBackdrop">
+            ingresar
+          </button>
+       
+        </form>
+
+            
+        <div  class="sectionnew"></div>
+        <a class="dropdown-item" href="#"><h3>around here? Sign up</h3> </a>
+       <a class="dropdown-item" href="#"><h3>password?</h3> </a>
+      </div>
+     
+      </section>
+
+
+
+      <section class="card1-container">
+
+        <div class="card" style="width: 18rem;">
+          <img src="/assets/logocalidad.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> Certificado de alta calidad </h5>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="/assets/logotech 24.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mejores equipos y tecnologia  </h5>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="/assets/logoinge.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">El mejor equipo de ingenieros mecanicos </h5>
+          </div>
+        </div>
+         
+      </section>
+      <section class="aboutus-container" id="sobrenosotros">
+
+        <div class="title-aboutus"><h3>SOBRE NOSOTROS</h3></div>
+
+     
+        <div class="aboutus-card">
+
+         <div class="container">
+           <div class="row">
+             <div class="col"><img src="/assets/logojc2.png"></div>
+             <div class="col"><p>JCMOTORS es un taller mecánico automotriz dedicado al Mantenimiento y reparación , mejoras en desempeño y rendimiento de vehículos de alta gama
+               </p></div>
+            
+           </div>
+         </div>
+
+
+      </section>
+
+      <section class="our-brand-container" id="marcas">
+
+        <div class="brand-title"><h3>MARCAS QUE ATENDEMOS</h3>
+
+        </div>
+
+
+      </section>
+
+
+      <section class="cars-brand-container">
+
+        <div class="logoaudi"><img src="/assets/logoaudi.png" class="img-fluid" alt="..."></div>
+        <div class="logobmw"><img src="/assets/logobnw.png" class="img-fluid" alt="..."></div>
+        <div class="logoAmg"> <img src="/assets/logoAMG.png" class="img-fluid" alt="..."></div>
+        <div class="logoporshe"><img src="/assets/LOGOPORSCHE.png" class="img-fluid" alt="..."></div>
+
+     
+
+      </section>
+       
+      <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title " id="staticBackdropLabel">Bienvenido.¿Desea ir a la sección de nuestros servicios?</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body">
+        <img src="/assets/LOGOFOTER.png">
+               
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-dismiss="modal">cerrar</button>
+        <a href="index2.htm"><button type="button" class="btn btn-dark" data-slide="modal" >Nuestros servicios</button> </a> 
+       </div>
+     </div>
+      </div>
+     </div>
+
+
+     <section class="our-brand-container"><div class="brand-title"><h3>NUESTROS SERVICIOS </h3></div></section>
+
+     
+
+      <section  class="service-card-container" id="sevicios">
+
+        
+
+
+        <div  class="card2" >
+          <img src="/assets/FOTOFALLAS.png" class="card-img-top " alt="...">
+          <div class="card-body2">
+            <h5 class="card-title">Diagnistico de fallas</h5>
+            <p class="card-text">Antes de desarmar su vehículo nuestros ingenieros realizan un diagnostico de fallas utilizando nuestros software  para el diagnistico automotriz</p>
+            <a href="#" class="btn ">Solicitar servicio</a>
+  </div>
+          </div>
+        </div>
+
+        <div  class="card3" >
+          <img src="/assets/FOTOMOTOR.png" class="card-img-top" alt="...">
+          <div class="card-body2">
+            <h5 class="card-title">Motor </h5>
+            <p class="card-text">Cambio de aceite, sincronización, cambio de piezas del motor por kilometraje o fallas,mejoras de desempeño en el motor</p>
+            <a href="#"   class="btn ">Solicitar servicio</a>
+  </div>
+          </div>
+        </div>
+
+        <div class="card4" >
+          <img src="/assets/FOTOBRAKES.png" class="card-img-top" alt="...">
+          <div class="card-body2">
+            <h5 class="card-title">sistema de frenos</h5>
+            <p class="card-text">
+             Reparacion o mantimiento de discos de freno, pastillas, mordazas. Realizamos mantenimiento y reparación a sistemas de frenado marca brembo.
+              </p>
+             <a href="#" id="boton-service" class="btn ">Solicitar servicio</a>
+  </div>
+          </div>
+        </div>
+
+        <div class="card5" >
+          <img src="/assets/FOTOALI.png" class="card-img-top" alt="...">
+          <div class="card-body2">
+            <h5 class="card-title">Alineación</h5>
+            <p class="card-text">alineaciones los esperamos, en nuestras instalaciones podrás encontrar los mejores quipos de última generación y mas exactos para tu vehículo</p>
+            <a href="#"  class="btn ">Solicitar servicio</a>
+          </div>
+        </div>
+
+        <div class="card6" >
+          <img src="/assets/FOTOBAL.png" class="card-img-top" alt="...">
+          <div class="card-body2">
+            <h5 class="card-title">Balanceo</h5>
+            <p class="card-text">Los esperamos, en nuestras instalaciones podrás encontrar los mejores quipos de última generación y mas exactos para tu vehículo</p>
+            <a href="#"  class="btn">Solicitar servicio</a>
+  </div>
+          </div>
+        </div>
+
+        <div class="card7" >
+          <img src="/assets/FOTOSUS (1).png" class="card-img-top" alt="...">
+          <div class="card-body2">
+            <h5 class="card-title">Suspensión</h5>
+            <p class="card-text">Reparación, mantenimiento o modificación de los componentes de un sistema de  suspensión para su coche de alta gama.    </p>
+    <a href="#"  class="btn ">Solicitar servicio</a>
+  </div>
+          
+          </div>
+        </div>
+
+      </section>
+
+<section class="servciceform-container" id="agenda">
+ <div class="brand-title m-5"><h3>FORMULARIO DE REGISTRO  </h3></div>
+
+  <form class="form-register"> 
+   
+     
+     <label id="title1" for="validationCustom01">Primer Nombre</label>
+     <input  id="box4"type="text" class="form-control" id="validationCustom01"  required>
+     <label id="title4" for="validationCustom01">Segundo Nombre</label>
+     <input  id="box4"type="text" class="form-control" id="validationCustom01" required>
+     <label  id="title3" for="validationCustom01">Primer Apellido</label>   
+     <input  id="box3"type="text" class="form-control" id="validationCustom01"  required>
+     <label id="title4" for="validationCustom01">Segundo Apellido</label>
+     <input  id="box4"type="text" class="form-control" id="validationCustom01"  required>
+     <label id="title6" for="validationCustom01">Correo electronico</label>
+     <input  id="box6"type="text" class="form-control" id="validationCustom01" required>
+     <label id="title6" for="validationCustom01">Numero de telefono</label>
+     <input  id="box6" type="tel" class="form-control" id="validationCustom01" required>   
+    
+     <div class="btn-group" role="group">
+      <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+        Seleccione su servicio 
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Diagnostico de fallas</a>
+        <a class="dropdown-item" href="#"> Motor</a>
+        <a class="dropdown-item" href="#"> Sistema de frenos </a>
+        <a class="dropdown-item" href="#"> Alineación</a>
+        <a class="dropdown-item" href="#"> Balanceo</a>
+        <a class="dropdown-item" href="#"> Suspensión</a>
+
+      </div>
+    </div>
+  </div>
+
+    <label id="box7" for="msg">Comentarios:</label>
+    <textarea class="coment" id="msg" name="user_message"></textarea>
+      
+    
+    
+
+
+   
+ 
+  </form>
+
+  <div class="button-register-container">
+     
+  <button class="button-register"  type="button" class="btn1">Registrate<TR/button>
+</div>
+
+
+</section>
+
+
+
+<section class="card-coment-container" id="comentarios">
+
+  <div class="brand-title m-5"><h3>¿  Que dicen nuestros clientes ?</h3></div>
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+         
+          <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">Juan Rodríguez</div>
+            <div class="card-body">
+              <h5 class="card-title">audi tt</h5>
+              <p class="card-text">En mi opinión tuve una buena experiencia… Excelente atención y amabilidad adicionalmente las instalaciones son muy limpias. ¡En resumen lo recomiendo!</p>
+            </div>
+          </div>
+      </div>
+      <div class="carousel-item">
+        
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+          <div class="card-header">Daniel Burgos
+          </div>
+          <div class="card-body">
+            <h5 class="card-title"> BMW M3 Sedán</h5>
+            <p class="card-text">Me fue muy bien, llevé mi carro  porque tenía unos ruidos en la suspensión , ellos me ayudaron a encontrar las fallas y me resolvieron el problema. </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+              <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+          <div class="card-header">Adriana Montoya </div>
+          <div class="card-body">
+            <h5 class="card-title">cayennee</h5>
+            <p class="card-text">Muy buen servicio. El ingeniero de calidad me explicó bien todo lo que se encontró en mi vehículo y los pros y contras de cada opción de reparación.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ 
+
+</section>
+
+<footer>
+
+ 
+
+  
+  <div  class="container-footer">
+
+    <div class="colJCM" ></div>
+    <div class="colfb" ></div>
+    <div class="colIG" ></div>
+
+</div>
+   
+    
+ </footer>
+ 
+
+     
+      
+
+</body>
+</html>
